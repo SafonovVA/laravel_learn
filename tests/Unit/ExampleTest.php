@@ -1,18 +1,24 @@
 <?php
 
-namespace Tests\Unit;
+namespace tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 
+require 'tests/Unit/CsvFileIterator.php';
+
 class ExampleTest extends TestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
-    public function testBasicTest()
+    public function testStub()
     {
-        $this->assertTrue(true);
+        // Создать заглушку для класса SomeClass.
+        $stub = $this->createMock(CsvFileIterator::class);
+
+        // Настроить заглушку.
+        $stub->method('valid')
+            ->will($this->throwException(new \Exception));
+
+        // Вызов $stub->doSomething() выбрасывает исключение класса Exception
+        $this->expectException(\Exception::class);
+        $stub->valid();
     }
 }
