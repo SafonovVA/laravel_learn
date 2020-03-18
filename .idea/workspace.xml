@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc803325-dd71-402c-b7d9-ff96e45490ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/messages.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/one-message.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/update-message.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/aside.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,13 +170,9 @@
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ExampleTest (1)">
+  <component name="RunManager" selected="PHPUnit.ExampleTest.testObserversAreUpdated">
     <configuration name="ExampleTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ExampleTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="ExampleTest.testBasicTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -205,25 +187,29 @@
       <TestRunner class="tests\Unit\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ExampleTest.php" method="testEquality" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="ExampleTest.testObserversAreUpdated" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="tests\Unit\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Unit/ExampleTest.php" method="testObserversAreUpdated" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="PHPUnit.phpunit.xml" />
-      <item itemvalue="PHPUnit.ExampleTest" />
       <item itemvalue="PHPUnit.ExampleTest (1)" />
       <item itemvalue="PHPUnit.ExampleTest.testBasicTest" />
       <item itemvalue="PHPUnit.ExampleTest.testBasicTest (1)" />
       <item itemvalue="PHPUnit.ExampleTest.testEquality" />
+      <item itemvalue="PHPUnit.ExampleTest.testObserversAreUpdated" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ExampleTest.testObserversAreUpdated" />
         <item itemvalue="PHPUnit.ExampleTest (1)" />
         <item itemvalue="PHPUnit.ExampleTest.testEquality" />
         <item itemvalue="PHPUnit.ExampleTest.testBasicTest (1)" />
         <item itemvalue="PHPUnit.ExampleTest.testBasicTest" />
-        <item itemvalue="PHPUnit.ExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +229,7 @@
       <workItem from="1584443940112" duration="2441000" />
       <workItem from="1584500355115" duration="1354000" />
       <workItem from="1584501725788" duration="5851000" />
-      <workItem from="1584508069724" duration="7120000" />
+      <workItem from="1584508069724" duration="11838000" />
     </task>
     <servers />
   </component>
@@ -271,22 +257,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="298" width="424" height="491" key="FileChooserDialogImpl/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584508105991" />
-    <state width="1874" height="355" key="GridCell.Tab.0.bottom" timestamp="1584509597500">
+    <state width="1874" height="355" key="GridCell.Tab.0.bottom" timestamp="1584519569897">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.bottom/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584509597500" />
-    <state width="1874" height="355" key="GridCell.Tab.0.center" timestamp="1584509597500">
+    <state width="1874" height="355" key="GridCell.Tab.0.bottom/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584519569897" />
+    <state width="1874" height="355" key="GridCell.Tab.0.center" timestamp="1584519569896">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.center/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584509597500" />
-    <state width="1874" height="355" key="GridCell.Tab.0.left" timestamp="1584509597499">
+    <state width="1874" height="355" key="GridCell.Tab.0.center/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584519569896" />
+    <state width="1874" height="355" key="GridCell.Tab.0.left" timestamp="1584519569896">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.left/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584509597499" />
-    <state width="1874" height="355" key="GridCell.Tab.0.right" timestamp="1584509597500">
+    <state width="1874" height="355" key="GridCell.Tab.0.left/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584519569896" />
+    <state width="1874" height="355" key="GridCell.Tab.0.right" timestamp="1584519569896">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="355" key="GridCell.Tab.0.right/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584509597500" />
+    <state width="1874" height="355" key="GridCell.Tab.0.right/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584519569896" />
     <state x="2682" y="353" width="386" height="380" key="NewPhpClassDialog" timestamp="1584501635288">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -303,6 +289,10 @@
       <screen x="50" y="27" width="1870" height="1053" />
     </state>
     <state x="289" y="79" width="1022" height="737" key="SettingsEditor/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584500844970" />
+    <state x="2723" y="456" width="303" height="174" key="VCS.ChangelistChooser" timestamp="1584522703223">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2723" y="456" width="303" height="174" key="VCS.ChangelistChooser/50.27.1870.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584522703223" />
     <state x="2777" y="429" width="367" height="240" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584437006991">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
